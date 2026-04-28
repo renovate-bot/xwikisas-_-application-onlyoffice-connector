@@ -36,8 +36,7 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>xoo.error.noValidLicense=Il n'y a pas de licence valide pour l'application OnlyOffice Connector. Pour en obtenir une, merci de visiter {0}Licenses section{1}.
-xoo.extension.name=Application OnlyOffice Connector
+  <content>xoo.extension.name=Application OnlyOffice Connector
 xoo.creationButtons.prez.label=Nouvelle Présentation
 xoo.creationButtons.sheet.label=Nouvelle Feuille de calcul
 xoo.creationButtons.text.label=Nouveau Document
@@ -62,8 +61,19 @@ xoo.inFrameContent.editConvertibleVersion.title=Ce type de document ({0}) ne peu
 xoo.inFrameContent.editConvertibleVersion.value=Modifier la version
 xoo.inFrameContent.loading=Chargement de OnlyOffice ...
 xoo.inFrameContent.onPage=sur la page
+xoo.editor.cancel.confirm=Certains changements ne sont pas sauvegardés. Êtes-vous certain de vouloir continuer ?
 xoo.validation.attachmentExists=Une pièce jointe portant ce nom ({0}) existe déjà. Veuillez choisir un autre nom.
 xoo.validation.attachmentMissing=Document ou pièce jointe non trouvé !
 xoo.validation.documentMissing=Paramètre de document requis !
-xoo.validation.filenameMissing=Paramètre de nom de fichier requis !</content>
+xoo.validation.filenameMissing=Paramètre de nom de fichier requis !
+xoo.config.conversion.officeServerWarning=L'instance XWiki n'est pas connectée à un serveur Office. Merci de configurer le serveur office correctement, ou utilisez une autre méthode de conversion.
+XWikiOnlyOfficeCode.ConfigurationClass_conversion=Conversion de documents ODF lors de l'édition
+XWikiOnlyOfficeCode.ConfigurationClass_conversion_force=Convertir vers un document différent
+XWikiOnlyOfficeCode.ConfigurationClass_conversion_onlyoffice=[(Beta) À la volée en utilisat OnlyOffice
+XWikiOnlyOfficeCode.ConfigurationClass_conversion_officeServer=(Beta) À la volée en utilisant un serveur Office
+XWikiOnlyOfficeCode.ConfigurationClass_serverSecret=Clé privée du serveur
+XWikiOnlyOfficeCode.ConfigurationClass_serverSecret_hint=La clé configurée sur le serveur OnlyOffice qui permettra à XWiki de créer des jetons JWT.
+XWikiOnlyOfficeCode.ConfigurationClass_authorizationHeader=En-tête d'autorisation
+XWikiOnlyOfficeCode.ConfigurationClass_authorizationHeader_hint=L'en-tête de la requête qui contient le jeton d'autorisation, lors de l'envoi de données à OnlyOffice.
+</content>
 </xwikidoc>
